@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Middagsplaneraren</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <section class="hero">
+            <h1>Ät smart, spara stort!</h1>
+            <p>AI-driven matplanering baserad på lokala priser.</p>
+            <button>Anmäl dig för tidig åtkomst!</button>
+        </section>
+
+        <section class="how-it-works">
+            <h2>Hur det fungerar</h2>
+            <ul>
+                <li class="list-item">Berätta om dina kostbehov, budget och allergier.</li>
+                <li class="list-item">Vår AI hittar de bästa recepten baserat på lokala priser.</li>
+                <li class="list-item">Njut av läckra, prisvärda måltider levererade till din inkorg.</li>
+            </ul>
+        </section>
+
+        <section class="benefits">
+            <h2>Varför välja oss?</h2>
+            <ul>
+                <li class="list-item">Spara pengar</li>
+                <li class="list-item">Ät hälsosammare</li>
+                <li class="list-item">Minska matsvinnet</li>
+                <li class="list-item">Spara tid</li>
+            </ul>
+        </section>
+
+        <section class="signup">
+            <h2>Håll dig uppdaterad</h2>
+            <form id="signup-form">
+                <input type="email" id="email" name="email" placeholder="E-postadress" required>
+                <button type="submit">Anmäl dig</button>
+            </form>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <p>© [År] Middagsplaneraren</p>
+        <a href="privacy.html">Integritetspolicy</a>
+        <a href="/terms.html">Användarvillkor</a>
+    </footer>
+    <script>
+        document.getElementById('signup-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const email = document.getElementById('email').value;
+             //Add code to send email to backend later on.
+            console.log("Email submitted:", email);
+            alert("Tack för din anmälan!");
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+body {
+    font-family: 'Funnel Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Light gray background */
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.hero {
+    text-align: center;
+    padding: 100px 0;
+    background-color: #e0f7fa; /* Light blue background for hero */
+}
+.benefits, .how-it-works {
+    margin-bottom: 40px;
+}
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f0f0f0;
+    font-size: 0.8em;
+}
+.list-item {
+    margin-bottom: 10px;
+    list-style: none; /* Remove default bullets */
+}
+ul {
+    padding-left: 0; /*removes default padding*/
+}
+button {
+    background-color: #4caf50; /* Green button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #45a049;
+}
+input[type="email"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+form {
+    margin-top: 20px;
+}
